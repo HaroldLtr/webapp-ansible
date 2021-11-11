@@ -1,0 +1,7 @@
+---
+- name: "install docker and SDK docker"
+  import_playbook: docker.yml
+
+- name: "deploy webapp-v5"
+  import_playbook: webapp-v5.yml
+...

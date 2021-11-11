@@ -1,0 +1,2 @@
+welcome: Bienvenue sur le serveur {{ ansible_hostname }} 
+port: "8090"
